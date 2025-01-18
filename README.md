@@ -1,5 +1,16 @@
-# Candy-Crush
-I create Candy Crush clone using HTML , CSS , JS 
 
-#Play From Here
-Your site is live at https://tirthchapla.github.io/Candy-Crush/
+# Candy Crush Using JS
+
+
+
+
+## Live : Play Here
+
+ Link : https://tirthchapla.github.io/Candy-Crush/
+
+
+## How I Build it 
+
+ - I used HTML, CSS, and JavaScript.
+ - I took references from YouTube tutorials.
+ - I created this project to brush up on my JavaScript skills.
