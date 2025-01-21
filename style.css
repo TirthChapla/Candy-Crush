@@ -1,5 +1,5 @@
 
-body
+/* body
 {
     background: url("./background.jpg") no-repeat center center fixed;
     background-size: cover;
@@ -23,4 +23,69 @@ body
 {
     width: 50px;
     height: 50px;
+} */
+
+
+body {
+    background: url("./background.jpg") no-repeat center center fixed;
+    background-size: cover;
+    color: black;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#board {
+    width: 450px;
+    height: 450px;
+    background-color: lightblue;
+    border: 5px solid slategray;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#board img {
+    width: 50px;
+    height: 50px;
+}
+
+/* For tablets and smaller laptops */
+@media screen and (max-width: 768px) {
+    #board {
+        width: 360px;
+        height: 360px;
+    }
+    
+    #board img {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+/* For mobile devices */
+@media screen and (max-width: 480px) {
+    #board {
+        width: 270px;
+        height: 270px;
+    }
+    
+    #board img {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+/* For very small devices */
+@media screen and (max-width: 320px) {
+    #board {
+        width: 225px;
+        height: 225px;
+    }
+    
+    #board img {
+        width: 25px;
+        height: 25px;
+    }
 }
